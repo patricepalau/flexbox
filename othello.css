@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border:  1px solid green;
+  width: 376px;
+  height: 376px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  background-color:  #3cb371;
+}
+
+.token {
+  border: 1px solid red;
+  border-radius: 50%;
+  width:  38px;
+  height: 38px;
+  margin: 5px auto;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+}

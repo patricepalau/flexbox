@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-wrap:  wrap;
+  border: 1px solid green;
+  width: 360px;
+  height: 360px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+}
+
+.row {
+  display: flex;
+}
+
+.row:nth-child(odd) .cell:nth-child(odd) {
+  background-color: #000;
+}
+
+.row:nth-child(even) .cell:nth-child(odd) {
+  background-color: #fff;
+}
+
+.row:nth-child(odd) .cell:nth-child(even) {
+  background-color: #fff;
+}
+
+.row:nth-child(even) .cell:nth-child(even) {
+  background-color: #000;
+}
